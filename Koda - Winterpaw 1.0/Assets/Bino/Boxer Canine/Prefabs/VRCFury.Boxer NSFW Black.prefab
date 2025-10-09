@@ -461,9 +461,9 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 19516d80dda796545bbccb1fed742123|Assets/Bino/Boxer Canine/Materials/Poiyomi/White
-            Nike - Copy.mat
-          objRef: {fileID: 2100000, guid: 19516d80dda796545bbccb1fed742123, type: 2}
+          id: e6cc341bf8fafa14387765fafe5e8b7c|Assets/Warmers/Boxer Textures/White
+            Nike - Copy 1.mat
+          objRef: {fileID: 2100000, guid: e6cc341bf8fafa14387765fafe5e8b7c, type: 2}
     - rid: 5903863276388483686
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -511,9 +511,9 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: faf0b5496c7c68349b2e2a4d29dd671c|Assets/Bino/Boxer Canine/Materials/Poiyomi/Black
-            Nike - Copy.mat
-          objRef: {fileID: 2100000, guid: faf0b5496c7c68349b2e2a4d29dd671c, type: 2}
+          id: 153a317b2c696b84892810260caf938a|Assets/Warmers/Boxer Textures/Black
+            Nike - Copy 2.mat
+          objRef: {fileID: 2100000, guid: 153a317b2c696b84892810260caf938a, type: 2}
 --- !u!114 &2534557124475252230
 MonoBehaviour:
   m_ObjectHideFlags: 0
