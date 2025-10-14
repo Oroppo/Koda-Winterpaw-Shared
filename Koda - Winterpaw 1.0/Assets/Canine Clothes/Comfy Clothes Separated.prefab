@@ -434,7 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -513,9 +513,9 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: b7c6192a0ca9b704194226ccb2f889f6|Assets/Canine Clothes/Materials/Black
-            Nike Leg Warmers.mat
-          objRef: {fileID: 2100000, guid: b7c6192a0ca9b704194226ccb2f889f6, type: 2}
+          id: 5e4daf913e6f71d42a5fdb5f8dfccbfb|Assets/Warmers/Leg Warmers/Black Leg
+            Warmers 1.mat
+          objRef: {fileID: 2100000, guid: 5e4daf913e6f71d42a5fdb5f8dfccbfb, type: 2}
     - rid: 5903863417533366297
       type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -531,9 +531,9 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 9c1f5d830e102e848b3d3895eadc925b|Assets/Canine Clothes/Materials/White
-            Nike Leg Warmers.mat
-          objRef: {fileID: 2100000, guid: 9c1f5d830e102e848b3d3895eadc925b, type: 2}
+          id: d496a926a5a1ac74a892a42b99dd9600|Assets/Warmers/Leg Warmers/White Leg
+            Warmers.mat
+          objRef: {fileID: 2100000, guid: d496a926a5a1ac74a892a42b99dd9600, type: 2}
     - rid: 7103121478616088622
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
@@ -758,7 +758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []

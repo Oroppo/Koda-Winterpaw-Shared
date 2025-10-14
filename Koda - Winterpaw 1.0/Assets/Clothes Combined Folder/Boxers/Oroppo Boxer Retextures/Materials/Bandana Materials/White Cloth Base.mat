@@ -8,17 +8,25 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: White Cloth Base
-  m_Shader: {fileID: 4800000, guid: c16e68c65b4a7a545ae87e9900155ee2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 67d97c1ce13894d418ae6fc3b17d62c8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - BSSBLOOMFOGTYPE_HEIGHT
+  - VIGNETTE_MASKED
+  - _LIGHTINGMODE_FLAT
+  - _RIM2STYLE_POIYOMI
+  - _RIMSTYLE_POIYOMI
+  - _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2010
   stringTagMap:
-    AllLockedGUIDS: 6e555a546388fb443adf9caf608a97e4,8dbbd902c7d576f4489cc476cbe86176,fc3045fbab59e00478c9b5a5647e74f3,36516915bfc638e47a0d6d50bb8b350c,49dfe0ce4f60a4a4296c69a325ecefbd,c6202402b690fd147b58df22715ebddc,25ca3b197989fad46aeb3718481c2606,088fe13e681c12d4db7400ee703382fb
+    AllLockedGUIDS: 088fe13e681c12d4db7400ee703382fb
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
+      _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Old Versions/9.0/Poiyomi Toon
     OriginalShaderGUID: 23f6705aff8bf964c87bfb3dd66ab345
     RenderType: Opaque
