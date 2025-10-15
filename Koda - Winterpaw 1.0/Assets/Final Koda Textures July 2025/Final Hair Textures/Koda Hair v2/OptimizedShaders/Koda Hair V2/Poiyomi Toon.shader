@@ -3406,7 +3406,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/f30ed56327da90643871820e5986aabe"
 			{
 				float3 emission0 = 0;
 				float emissionAlpha = 1;
-				float emissionStrength0 = 0.0;
+				float emissionStrength0 = _EmissionStrength;
 				float3 emissionColor0 = 0;
 				applyALEmmissionStrength(poiMods, emissionStrength0, float4(0,0,0,0), 0.0, float4(1,1,0,0), 0.0, 0.0);
 				applyALCenterOutEmission(poiMods, poiLight.nDotV, emissionStrength0, 0.0, 0.0, float4(0,0,0,0), 0.0, 1.0);

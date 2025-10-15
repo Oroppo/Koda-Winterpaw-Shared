@@ -944,6 +944,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3150656216836841657}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &60406034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6146275318639410543, guid: 4e2941b9a13ae3e44bf881e4ba46a795,
+    type: 3}
+  m_PrefabInstance: {fileID: 2034403840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &61952288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,7 +1731,7 @@ PrefabInstance:
     - target: {fileID: 6432017863771335233, guid: b31d3c67e69b4ae4ab6350c329549b46,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6583291301928709832, guid: b31d3c67e69b4ae4ab6350c329549b46,
         type: 3}
@@ -9636,6 +9642,10 @@ MonoBehaviour:
           - rid: 4467359097865110294
           - rid: 4467359097865110295
           - rid: 4467359143534526584
+          - rid: 9172371530962173967
+          - rid: 9172371530962173970
+          - rid: 9172371530962173971
+          - rid: 9172371530962173972
         saved: 0
         slider: 1
         sliderInactiveAtZero: 0
@@ -9691,6 +9701,70 @@ MonoBehaviour:
         renderer2: {fileID: 635547660225316644}
         affectAllMeshes: 0
         propertyName: _EmissionStrength1
+        propertyType: 0
+        value: 8
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 9172371530962173967
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 60406034}
+        affectAllMeshes: 0
+        propertyName: _EmissionStrength
+        propertyType: 0
+        value: 8
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 9172371530962173970
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1333145245}
+        affectAllMeshes: 0
+        propertyName: _EmissionStrength
+        propertyType: 0
+        value: 8
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 9172371530962173971
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1284753911}
+        affectAllMeshes: 0
+        propertyName: _EmissionStrength
+        propertyType: 0
+        value: 8
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 9172371530962173972
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1925048662}
+        affectAllMeshes: 0
+        propertyName: _EmissionStrength
         propertyType: 0
         value: 8
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -24997,6 +25071,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5921076498361306456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1284753911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6146275318639410543, guid: 4e2941b9a13ae3e44bf881e4ba46a795,
+    type: 3}
+  m_PrefabInstance: {fileID: 476107481}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1287604475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4e2941b9a13ae3e44bf881e4ba46a795,
@@ -25824,6 +25904,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28e27cacfc7e70479097f0a63c37217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1333145245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6146275318639410543, guid: 4e2941b9a13ae3e44bf881e4ba46a795,
+    type: 3}
+  m_PrefabInstance: {fileID: 537803188}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1334074465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42270,7 +42356,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 7328550234423210999}
-    radius: 0.08127481
+    radius: 0.081274815
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -42278,7 +42364,7 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 5372465727947436976}
-    radius: 0.08127482
+    radius: 0.08127481
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -42286,56 +42372,56 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 5194720376926793597}
-    radius: 0.024085768
-    height: 0.09634307
-    position: {x: -0.0050293677, y: 0.081737235, z: -0.00001140968}
-    rotation: {x: -0.0081305215, y: 0, z: 0.72845066, w: 0.68505}
+    radius: 0.024085745
+    height: 0.09634298
+    position: {x: -0.005029357, y: 0.081737116, z: -0.000011271937}
+    rotation: {x: -0.00813039, y: 0, z: 0.7284506, w: 0.68505013}
   collider_handL:
     isMirrored: 1
     state: 0
     transform: {fileID: 1674273702696771375}
-    radius: 0.024085727
-    height: 0.09634291
-    position: {x: 0.0050293924, y: 0.08173686, z: -0.000011573546}
-    rotation: {x: -0.008134096, y: 0, z: -0.7284508, w: 0.68504995}
+    radius: 0.024085721
+    height: 0.096342884
+    position: {x: 0.0050294087, y: 0.08173706, z: -0.000011559297}
+    rotation: {x: -0.008134094, y: 0, z: -0.7284508, w: 0.68504995}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
     transform: {fileID: 7246902145456694821}
-    radius: 0.0105936015
-    height: 0.05296801
+    radius: 0.01059362
+    height: 0.052968103
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 8938498459671550388}
-    radius: 0.012779278
-    height: 0.06389639
+    radius: 0.012779276
+    height: 0.06389638
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
     isMirrored: 1
     state: 0
     transform: {fileID: 4592633679159208770}
-    radius: 0.0130899
-    height: 0.0654495
+    radius: 0.013089865
+    height: 0.06544933
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleL:
     isMirrored: 1
     state: 0
     transform: {fileID: 3778315463763237732}
-    radius: 0.01085381
-    height: 0.05426905
+    radius: 0.010853829
+    height: 0.054269142
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
     transform: {fileID: 3505615243021980054}
-    radius: 0.010593438
-    height: 0.052967187
+    radius: 0.0105934795
+    height: 0.0529674
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
@@ -42350,16 +42436,16 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 8079365617022269774}
-    radius: 0.013089896
-    height: 0.06544948
+    radius: 0.013089868
+    height: 0.06544934
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
     transform: {fileID: 4737684429829925679}
-    radius: 0.0108539015
-    height: 0.054269508
+    radius: 0.010853903
+    height: 0.054269515
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &1755147403
@@ -45415,6 +45501,12 @@ Transform:
   - {fileID: 388199280}
   m_Father: {fileID: 996724078}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1925048662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6146275318639410543, guid: 4e2941b9a13ae3e44bf881e4ba46a795,
+    type: 3}
+  m_PrefabInstance: {fileID: 1155145536}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1926103361 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1649321985238065115, guid: 8cb66fcbc26cae147b2692a4fda0bdb0,
@@ -86324,7 +86416,7 @@ MonoBehaviour:
         affectAllMeshes: 1
         propertyName: _EmissionStrength0
         propertyType: 0
-        value: 0
+        value: 8
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 6425162456688493058
