@@ -366,7 +366,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/Boxers/Toggle
+        name: Clothing/Bottoms/Boxers/Toggle
         state:
           actions:
           - rid: 5903863276388483683
@@ -541,7 +541,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/Boxers/UNFOLD (CAN CAUSE CLIPPING)
+        name: Clothing/Bottoms/Boxers/UNFOLD (CAN CAUSE CLIPPING)
         state:
           actions:
           - rid: 5903863276388483368
@@ -650,7 +650,7 @@ MonoBehaviour:
       type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 1
-        path: Clothing/Boxers
+        path: Clothing/Bottoms/Boxers
         icon:
           version: 1
           fileID: 0

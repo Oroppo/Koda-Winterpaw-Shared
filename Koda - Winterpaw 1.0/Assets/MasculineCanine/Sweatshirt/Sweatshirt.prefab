@@ -71,7 +71,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9045286cdf84ad74a9ba827c29425903,
         type: 3}
       propertyPath: m_Name
-      value: Sweatshirt Variant
+      value: Sweatshirt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -80,7 +80,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9045286cdf84ad74a9ba827c29425903,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 244084973436749781}
+      addedObject: {fileID: 5232347529465338898}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9045286cdf84ad74a9ba827c29425903,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7713884868167504646}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9045286cdf84ad74a9ba827c29425903,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5592768293987309708}
   m_SourcePrefab: {fileID: 100100000, guid: 9045286cdf84ad74a9ba827c29425903, type: 3}
 --- !u!137 &3013656025799688327 stripped
 SkinnedMeshRenderer:
@@ -94,7 +102,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 9015842016081341467}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &244084973436749781
+--- !u!114 &5232347529465338898
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,36 +114,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.720.0
-  config:
-    features:
-    - rid: 0
-    - rid: 1
-    - rid: 2
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1441953748445299217
   references:
     version: 2
     RefIds:
-    - rid: 0
+    - rid: 1441953748445299217
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
-        version: 5
-        linkMode: 0
+        version: 7
         propBone: {fileID: 8531200591536335591}
-        boneOnAvatar: 0
-        bonePathOnAvatar: 
-        keepBoneOffsets2: 2
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
         removeBoneSuffix: 
-        fallbackBones: 
-        skinRewriteScalingFactor: 1
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 1
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 1
+        autoScaleFactor: 0
         scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
         useOptimizedUpload: 0
         useBoneMerging: 0
         keepBoneOffsets: 0
         physbonesOnAvatarBones: 0
-    - rid: 1
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 2
+        linkMode: 0
+--- !u!114 &7713884868167504646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8205520425977696586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1252.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1441953748445299218
+  references:
+    version: 2
+    RefIds:
+    - rid: 1441953748445299218
       type: {class: BlendShapeLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 1
@@ -143,22 +187,43 @@ MonoBehaviour:
         - {fileID: 3516403143371445143, guid: 652e05e900ceee24a8ae163315b667a7, type: 3}
         linkSkins:
         - renderer: {fileID: 3013656025799688327}
-          ResetMePlease2: 0
         baseObj: Body
         includeAll: 1
         exactMatch: 0
         excludes: []
         includes: []
-    - rid: 2
+--- !u!114 &5592768293987309708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8205520425977696586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1252.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1441953748445299219
+  references:
+    version: 2
+    RefIds:
+    - rid: 1441953748445299219
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/Sweatshirt
+        name: Clothing/Tops/Sweatshirt
         state:
           actions:
-          - rid: 3
-          - rid: 4
-          ResetMePlease2: 0
+          - rid: 1441953748445299220
+          - rid: 1441953748445299221
         saved: 1
         slider: 0
         sliderInactiveAtZero: 1
@@ -182,22 +247,17 @@ MonoBehaviour:
         separateLocal: 0
         localState:
           actions: []
-          ResetMePlease2: 0
         hasTransition: 0
         transitionStateIn:
           actions: []
-          ResetMePlease2: 0
         transitionStateOut:
           actions: []
-          ResetMePlease2: 0
         transitionTimeIn: 0
         transitionTimeOut: 0
         localTransitionStateIn:
           actions: []
-          ResetMePlease2: 0
         localTransitionStateOut:
           actions: []
-          ResetMePlease2: 0
         localTransitionTimeIn: 0
         localTransitionTimeOut: 0
         simpleOutTransition: 1
@@ -206,22 +266,27 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
-    - rid: 3
+        expandIntoTransition: 1
+    - rid: 1441953748445299220
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Sweatshirt1^
         blendShapeValue: 100
         renderer: {fileID: 0}
         allRenderers: 1
-    - rid: 4
+    - rid: 1441953748445299221
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         obj: {fileID: 8205520425977696586}
         mode: 0
 --- !u!1 &8531200591536335591 stripped

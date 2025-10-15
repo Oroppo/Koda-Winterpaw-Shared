@@ -538,7 +538,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/Warmers/Legs
+        name: Clothing/Extras/Warmers/Legs
         state:
           actions:
           - rid: 7103121478616088623

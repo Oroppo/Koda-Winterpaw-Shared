@@ -9,11 +9,17 @@
     "vrchat.blackstartx.gesture-manager": {
       "version": "3.9.4"
     },
-    "dev.vrlabs.av3manager": {
+    "wholesomevr.sps-configurator": {
+      "version": "2.0.11"
+    },
+    "com.llealloo.audiolink": {
       "version": "2.1.0"
     },
-    "com.vrchat.avatars": {
-      "version": "3.8.2"
+    "com.furality.somnashader": {
+      "version": "1.0.2"
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.1.0"
     },
     "com.vrcfury.vrcfury": {
       "version": "1.1252.0"
@@ -23,15 +29,6 @@
     },
     "com.poiyomi.toon": {
       "version": "9.2.74"
-    },
-    "wholesomevr.sps-configurator": {
-      "version": "2.0.11"
-    },
-    "com.llealloo.audiolink": {
-      "version": "2.1.0"
-    },
-    "com.furality.somnashader": {
-      "version": "1.0.2"
     }
   },
   "locked": {
@@ -47,6 +44,22 @@
       "version": "3.9.4",
       "dependencies": {
         "com.vrchat.avatars": ">=3.5.2 < 3.9.X"
+      }
+    },
+    "wholesomevr.sps-configurator": {
+      "version": "2.0.11",
+      "dependencies": {
+        "com.vrchat.avatars": "3.*"
+      }
+    },
+    "com.llealloo.audiolink": {
+      "version": "2.1.0",
+      "dependencies": {}
+    },
+    "com.furality.somnashader": {
+      "version": "1.0.2",
+      "dependencies": {
+        "com.llealloo.audiolink": "2.x.x"
       }
     },
     "dev.vrlabs.av3manager": {
@@ -76,22 +89,6 @@
     "com.poiyomi.toon": {
       "version": "9.2.74",
       "dependencies": {}
-    },
-    "wholesomevr.sps-configurator": {
-      "version": "2.0.11",
-      "dependencies": {
-        "com.vrchat.avatars": "3.*"
-      }
-    },
-    "com.llealloo.audiolink": {
-      "version": "2.1.0",
-      "dependencies": {}
-    },
-    "com.furality.somnashader": {
-      "version": "1.0.2",
-      "dependencies": {
-        "com.llealloo.audiolink": "2.x.x"
-      }
     }
   }
 }
