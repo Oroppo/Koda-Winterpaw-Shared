@@ -21806,7 +21806,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: e6cc341bf8fafa14387765fafe5e8b7c|Assets/Warmers/Boxer Textures/White
+          id: e6cc341bf8fafa14387765fafe5e8b7c|Assets/Warmers/Boxer Textures/Finished/White
             Nike - Copy 1.mat
           objRef: {fileID: 2100000, guid: e6cc341bf8fafa14387765fafe5e8b7c, type: 2}
     - rid: 5903863276388483686
@@ -21856,9 +21856,9 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 153a317b2c696b84892810260caf938a|Assets/Warmers/Boxer Textures/Black
-            Nike - Copy 2.mat
-          objRef: {fileID: 2100000, guid: 153a317b2c696b84892810260caf938a, type: 2}
+          id: 7635519678d8c374da4e79343eff6b69|Assets/Warmers/Boxer Textures/Finished/Black
+            Nike Updated.mat
+          objRef: {fileID: 2100000, guid: 7635519678d8c374da4e79343eff6b69, type: 2}
 --- !u!114 &9151863613074444977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32341,7 +32341,7 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         renderer: {fileID: 0}
-        renderer2: {fileID: 6567335906843868941}
+        renderer2: {fileID: 1494774677538965841}
         affectAllMeshes: 0
         propertyName: _EmissionStrength
         propertyType: 0
@@ -32357,7 +32357,7 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         renderer: {fileID: 0}
-        renderer2: {fileID: 3114699389098903317}
+        renderer2: {fileID: 8345811817375886875}
         affectAllMeshes: 0
         propertyName: _EmissionStrength
         propertyType: 0
@@ -32373,7 +32373,7 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         renderer: {fileID: 0}
-        renderer2: {fileID: 1494774677538965841}
+        renderer2: {fileID: 6567335906843868941}
         affectAllMeshes: 0
         propertyName: _EmissionStrength
         propertyType: 0
@@ -32389,7 +32389,7 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         renderer: {fileID: 0}
-        renderer2: {fileID: 8345811817375886875}
+        renderer2: {fileID: 3114699389098903317}
         affectAllMeshes: 0
         propertyName: _EmissionStrength
         propertyType: 0
@@ -49836,8 +49836,8 @@ MonoBehaviour:
       ParentRotationOffset: {x: 0, y: 0, z: 0}
     totalLength: 1
     overflowList: []
-  cachedExecutionGroupIndex: 0
-  latestValidExecutionGroupIndex: 0
+  cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: 1
   RotationAtRest: {x: 0, y: 0, z: 0}
   RotationOffset: {x: 0, y: 0, z: 0}
   AffectsRotationX: 0
@@ -49945,8 +49945,8 @@ MonoBehaviour:
       ParentRotationOffset: {x: 0, y: 0, z: 0}
     totalLength: 1
     overflowList: []
-  cachedExecutionGroupIndex: 1
-  latestValidExecutionGroupIndex: 1
+  cachedExecutionGroupIndex: 0
+  latestValidExecutionGroupIndex: 0
   PositionAtRest: {x: 0, y: 0, z: 0}
   PositionOffset: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
@@ -50635,7 +50635,7 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         obj: {fileID: 0}
-        renderer: {fileID: 0}
+        renderer: {fileID: 7020718830183057045}
         materialIndex: 0
         mat:
           version: 1

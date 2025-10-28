@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NB Nylon Skeletal
+  m_Shader: {fileID: 4800000, guid: 104003ab15a9f7a47b6ef0597225e771, type: 3}
+  m_Parent: {fileID: 2100000, guid: b14463af8ecc4b34e8b431129ff93af0, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - BSSBLOOMFOGTYPE_HEIGHT
+  - MOCHIE_PBR
+  - POSTPROCESS
+  - VIGNETTE_MASKED
+  - _GLOSSYREFLECTIONS_OFF
+  - _LIGHTINGMODE_CLOTH
+  - _RIM2STYLE_POIYOMI
+  - _RIMSTYLE_POIYOMI
+  - _STOCHASTICMODE_DELIOT_HEITZ
+  m_InvalidKeywords:
+  - _UZUMOREENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    AllLockedGUIDS: de1f8256506d6b84397831b39fb1a012,b14463af8ecc4b34e8b431129ff93af0,b14463af8ecc4b34e8b431129ff93af0,c08b52dbe8e81414982e0d821552ad1b,47820111f55a9334cac6c91b4bb2e060
+    OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Toon
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: fc25aa478e3342a4da4ea7c479c5757e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f84c5034bcb21ea4194e93c495b36b46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MochieMetallicMaps:
+        m_Texture: {fileID: 2800000, guid: af40b74f98dd1134281e8f3d13b8f49b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []

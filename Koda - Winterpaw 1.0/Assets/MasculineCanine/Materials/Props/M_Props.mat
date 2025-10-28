@@ -15,7 +15,6 @@ Material:
   m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
   - COLOR_GRADING_HDR
-  - MOCHIE_PBR
   - POI_AUDIOLINK
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_FLAT
@@ -29,9 +28,9 @@ Material:
   stringTagMap:
     AllLockedGUIDS: 23a7d660e756b5f4ba5f6036872ddf65
     OptimizedShaderFolder: Sunglasses_GrayFloof
-    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT COLOR_GRADING_HDR MOCHIE_PBR POI_AUDIOLINK
-      VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
-    OriginalShader: .poiyomi/Poiyomi Toon
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT COLOR_GRADING_HDR POI_AUDIOLINK VIGNETTE_MASKED
+      _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+    OriginalShader: .poiyomi/Old Versions/9.1/Poiyomi Toon
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
     RenderType: Opaque
     _AudioLinkAnimToggleAnimated: 1
@@ -53,6 +52,7 @@ Material:
     _MochieMetallicMaps_texPack_r_inverted: False
     _stripped_tex__ClothDFG: 76d65cbce584df7449699fb8406f60ea
     _stripped_tex__EmissionScrollingCurve: 5921594e13714a84a9314275912a48b4
+    _stripped_tex__MochieMetallicMaps: 28bc2572e3e5d4c408bf578ed8f59e54
     _stripped_tex__SkinLUT: d13510bb2be49aa40a66a0101efb6a36
     _stripped_tex__ToonRamp: 61bd594533da4fc42bd46ef93ba5a4f6
   disabledShaderPasses: []
@@ -93,14 +93,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4eaf78245fb719e4d87f9540f35793bf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MochieMetallicMaps:
-        m_Texture: {fileID: 2800000, guid: 28bc2572e3e5d4c408bf578ed8f59e54, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MochieReflCube:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -1646,7 +1638,7 @@ Material:
     - _MirrorTextureEnabled: 0
     - _MirrorTextureForceEnabled: 0
     - _MirrorTextureUV: 0
-    - _MochieBRDF: 1
+    - _MochieBRDF: 0
     - _MochieForceFallback: 0
     - _MochieGSAAEnabled: 1
     - _MochieLitFallback: 1
@@ -1660,7 +1652,7 @@ Material:
     - _MochieMetallicMapsStochastic: 0
     - _MochieMetallicMapsUV: 0
     - _MochieMetallicMasksUV: 0
-    - _MochieMetallicMultiplier: 1
+    - _MochieMetallicMultiplier: 0.435
     - _MochieReflectionMaskInvert: 0
     - _MochieReflectionStrength: 1
     - _MochieReflectionStrengthGlobalMask: 0
@@ -2580,7 +2572,7 @@ Material:
     - m_start_BonusSliders: 0
     - m_start_CRT: 0
     - m_start_CenterOutDissolve: 0
-    - m_start_ColorAdjust: 0
+    - m_start_ColorAdjust: 1
     - m_start_CubeMap: 0
     - m_start_Decal0: 0
     - m_start_Decal0AudioLink: 0
